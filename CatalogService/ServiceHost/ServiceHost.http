@@ -1,0 +1,11 @@
+# @ServiceHost_HostAddress = http://localhost:5113
+
+# GET {{ServiceHost_HostAddress}}/todos/
+# Accept: application/json
+
+# ###
+
+# GET {{ServiceHost_HostAddress}}/todos/1
+# Accept: application/json
+
+# ###
