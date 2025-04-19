@@ -1,0 +1,3 @@
+<ItemGroup>
+  <Protobuf Include="product.proto" GrpcServices="Both" />
+</ItemGroup>
