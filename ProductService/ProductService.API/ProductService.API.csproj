@@ -16,10 +16,13 @@
   <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.57.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+
+	<Protobuf Include="..\..\BuildingBlocks\Contracts\Protos\product.proto" GrpcServices="Both" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\BuildingBlocks\Contracts\Contracts.csproj" />
+    <ProjectReference Include="..\ProductService.Infrastructure\ProductService.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

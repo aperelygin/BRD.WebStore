@@ -1,3 +1,20 @@
-<ItemGroup>
-  <Protobuf Include="product.proto" GrpcServices="Both" />
-</ItemGroup>
+syntax = "proto3";
+
+option csharp_namespace = "ProductService.Grpc";
+
+package product;
+
+service ProductGrpc {
+  rpc GetProductById (ProductRequest) returns (ProductReply);
+}
+
+message ProductRequest {
+  string id = 1;
+}
+
+message ProductReply {
+  string id = 1;
+  string name = 2;
+  double price = 3;
+  int32 stock = 4;
+}

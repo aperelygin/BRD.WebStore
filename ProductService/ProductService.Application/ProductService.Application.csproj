@@ -8,8 +8,11 @@
 
   <ItemGroup>
     <Folder Include="Commands\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductService.Domain\ProductService.Domain.csproj" />
   </ItemGroup>
 
 </Project>
