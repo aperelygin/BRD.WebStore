@@ -5,17 +5,22 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductService", "ProductService", "{049E1AAE-7CE8-4770-B54A-B67DD04FB444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.API", "ProductService\ProductService.API\ProductService.API.csproj", "{AF4422B8-9305-4E3D-9117-CE4053BC8263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService.API", "ProductService\ProductService.API\ProductService.API.csproj", "{AF4422B8-9305-4E3D-9117-CE4053BC8263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Application", "ProductService\ProductService.Application\ProductService.Application.csproj", "{9DF2EC6B-2F59-4143-A615-A951CBBB58FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService.Application", "ProductService\ProductService.Application\ProductService.Application.csproj", "{9DF2EC6B-2F59-4143-A615-A951CBBB58FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Domain", "ProductService\ProductService.Domain\ProductService.Domain.csproj", "{04051449-5D79-474D-B0EF-A6AF331577C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService.Domain", "ProductService\ProductService.Domain\ProductService.Domain.csproj", "{04051449-5D79-474D-B0EF-A6AF331577C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Infrastructure", "ProductService\ProductService.Infrastructure\ProductService.Infrastructure.csproj", "{5802933F-473C-4246-9F57-9EB3012AC76F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService.Infrastructure", "ProductService\ProductService.Infrastructure\ProductService.Infrastructure.csproj", "{5802933F-473C-4246-9F57-9EB3012AC76F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{93C135F8-19BD-40EA-9E9C-3F703FC74410}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "BuildingBlocks\Contracts\Contracts.csproj", "{D048B044-2B79-40F6-80BB-982191AE17C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "BuildingBlocks\Contracts\Contracts.csproj", "{D048B044-2B79-40F6-80BB-982191AE17C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{269466DD-3BBB-4B57-AC08-B574EAFF781B}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
